@@ -1,0 +1,26 @@
+{
+  "name": "npmlib",
+  "version": "1.0.0",
+  "description": "Testing library using nexus",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gersonmontenegro/npmlib.git"
+  },
+  "keywords": [
+    "nexus",
+    "npm"
+  ],
+  "author": "Gerson Montenegro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gersonmontenegro/npmlib/issues"
+  },
+  "homepage": "https://github.com/gersonmontenegro/npmlib#readme",
+  "publishConfig": {
+    "registry": "http://localhost:8083/repository/npm-private/"
+  }
+}
