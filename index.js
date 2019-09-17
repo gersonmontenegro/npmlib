@@ -1,6 +1,8 @@
-exports.getFibonacci = function(n) {
+const f = function(n) {
     if (n < 2){
         return n;
     }
-    return fib(n - 1) + fib (n - 2);
+    return f(n - 1) + f(n - 2);
 }
+
+exports.getFibonacci = f;
